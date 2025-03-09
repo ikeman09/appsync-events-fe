@@ -71,7 +71,7 @@ function App() {
   }, []);
 
   const handleClick = async () => {
-    await fetch('https://gq3ailwe9e.execute-api.ap-southeast-1.amazonaws.com/prod/trigger', {
+    await fetch('<enter-your-api-gateway-url>', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
